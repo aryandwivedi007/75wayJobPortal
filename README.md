@@ -1,7 +1,9 @@
 # Project Name
 
 ## Description
-Brief description of what the project is about.
+This Job Portal project provides JWT authentication for users and it has two roles "CANDIDATE" and "EMPLOYER". BOTH CANDIDATE and EMPLOYER uses common login signup functionality which furhter bifurcates their role based on roles as discussed above,
+User with role "CANDIDATE" can apply to job which futher is streamlined by employer by resume screening, interviews and if candidate selected or not. Each status is notified to CANDIDATE by email as well as status is updated in db which can be visualized further with ui.This way a application is tracked seamlessly from form submission to hiring.
+Design patterns are quite robust and can be extended furhter to incorporate furhter changes to meet the current requirements
 
 ## Prerequisites
 - Docker
